@@ -1,0 +1,29 @@
+@import  '../../styles.scss';
+
+.slider-area2 {
+    background: $primary-color;
+}
+
+.accordion .nav-tabs .nav-item.show .nav-link, .accordion .nav-tabs .nav-link.active {
+    background-color: $primary-color;
+}
+
+.accordion .nav-tabs .nav-link::after {
+    background-color: $primary-color;
+}
+
+.accordion .nav-tabs .nav-item {
+    color: $text-color-primary;
+}
+
+.nav-link.active {
+    color: #fff!important;
+}
+
+.accordion .accordion-wrapper .card-header a span {
+    color: $text-color-primary;
+}
+
+.accordion .accordion-wrapper .card-header a p {
+    color: $title-color;
+}

@@ -1,0 +1,45 @@
+@import  '../../styles.scss';
+
+.work-company {
+    background-color: $primary-color;   
+}
+
+.btn {
+    background: $primary-color;
+}
+
+.btn::before {
+    background: $primary-color-hover;
+}
+
+.slider-area-color {
+    background-color: $primary-color;
+}
+
+.slider-height {
+    height: 500px;
+}
+
+.section-tittle h2 {
+    color: $title-color
+}
+
+.counter-section .cd-timer .cd-item span {
+    color: $secondary-color;
+}
+
+.counter-section .cd-timer .cd-item:after {
+    background-color: $secondary-color;
+}
+
+.counter-section .cd-timer .cd-item::before {
+    background-color: $secondary-color;
+}
+
+.counter-section .cd-timer .cd-item p {
+    color: $secondary-color;
+}
+
+.about-low-area .single-caption .caption h5 {
+    color: $text-color-primary;
+}

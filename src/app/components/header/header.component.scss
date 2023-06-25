@@ -1,0 +1,13 @@
+@import  '../../../styles.scss';
+
+.btn {
+    background: $primary-color;
+}
+
+.btn::before {
+    background-color: $primary-color-hover;
+}
+
+#navigation a {
+    color: $text-color-primary
+}

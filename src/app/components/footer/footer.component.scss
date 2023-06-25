@@ -1,0 +1,21 @@
+@import  '../../../styles.scss';
+
+.footer-area {
+    background: $color-top-footer;
+}
+
+.footer-bottom-area {
+    background: $color-bottom-footer;
+}
+
+.footer-area .footer-form form .form-icon button {
+    background-color: $primary-color;
+}
+
+.footer-bottom-area .footer-copy-right p i {
+    color: $primary-color;
+}
+
+.footer-bottom-area .footer-copy-right a {
+    color: $primary-color;
+}

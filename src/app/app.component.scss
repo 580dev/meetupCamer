@@ -1,0 +1,9 @@
+@import  '../styles.scss';
+
+#scrollUp, #back-top {
+    background-color: $primary-color;
+}
+
+.preloader-circle {
+    border-top-color: $primary-color
+}
