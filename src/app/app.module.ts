@@ -24,7 +24,7 @@ import { SpeakerComponent } from './speaker/speaker.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    CommonModule
+    CommonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
