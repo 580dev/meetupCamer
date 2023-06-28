@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore";
-import { environment } from '../environments/environment'
+import {firebaseConfig} from "../firebase-config";
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,8 @@ export class AppComponent {
   title = 'meetupCamer';
 
   constructor() {
-    const app = initializeApp(environment.firebase);
+
+    const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
   }
 
